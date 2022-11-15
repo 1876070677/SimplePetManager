@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Context>
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+    <Resource
+        name="jdbc/pet"
+        auth="Container"
+        type="javax.sql.DataSource"
+        driverClassName="org.mariadb.jdbc.Driver"
+        url="db URL"
+        username="db ID"
+        password="db PW"
+        maxActive="7"
+        maxIdle="4"
+        maxWait="3000"
+        testOnBorrow="true"
+        testOnReturn="false"
+        validationQuery="SELECT 1" />
+</Context>
